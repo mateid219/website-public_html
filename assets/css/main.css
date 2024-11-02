@@ -31,3 +31,34 @@
 #menu-exit {
   display: none;
 }
+#block_logo {
+  flex: 1;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+#titlu {
+  text-decoration: none; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+#logo {
+  width: 95%;
+  height: 95%;
+}
+#logo-mobil {
+  height: 120%;
+  width: 120%;
+  margin-left: 25%;
+  display: none;
+}
+@media only screen and (max-width: 640px) {
+  #logo {
+    display: none;
+  }
+  
+  #logo-mobil {
+    display: flex;
+  }
+}

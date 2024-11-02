@@ -6,3 +6,15 @@
   display: flex;
   grid-gap: 0;
 }
+.navbar { 
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
